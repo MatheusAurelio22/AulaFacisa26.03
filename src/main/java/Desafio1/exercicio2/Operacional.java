@@ -1,4 +1,4 @@
-package org.example;
+package Desafio1.exercicio2;
 
 public class Operacional {
     public static final int domingo = 1;

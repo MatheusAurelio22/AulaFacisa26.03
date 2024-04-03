@@ -1,8 +1,6 @@
-package org.example;
+package Desafio1.exercicio2;
 
 import javax.swing.*;
-
-import static org.example.Operacional.*;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -36,7 +34,7 @@ public class Main {
                 break;
             default:
                 JOptionPane.showMessageDialog(null,"Número inválido");
-
+                break;
         }
     }
 }
