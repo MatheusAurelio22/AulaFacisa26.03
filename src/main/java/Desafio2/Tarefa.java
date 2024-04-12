@@ -1,4 +1,4 @@
-package Desafio2.GerenciadorDeTarefas;
+package Desafio2;
 
 public class Tarefa {
     private String nome;
