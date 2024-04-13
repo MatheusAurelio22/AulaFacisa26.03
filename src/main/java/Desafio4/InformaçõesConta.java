@@ -5,16 +5,11 @@ public class InformaçõesConta {
     public String nomeDoTitular;
     public double saldo;
 
-    public Conta(){
+    public InformaçõesConta(){
 
     }
 
-    public Conta(int numero, String nomeTitular) {
-        this.numeroDaConta = numero;
-        this.nomeDoTitular = nomeTitular;
-    }
-
-    public Conta(int numero, String nomeTitular, double saldo) {
+    public InformaçõesConta(int numero, String nomeTitular, double saldo) {
         this.numeroDaConta = numero;
         this.nomeDoTitular = nomeTitular;
         this.saldo = saldo;
@@ -38,6 +33,14 @@ public class InformaçõesConta {
 
     public void setSaldo(double saldo) {
         this.saldo = saldo;
+    }
+
+    public void depositar(double quantia){
+        saldo += quantia;
+    }
+
+    public void saque(double quantia){
+        saldo = saldo - (quantia+5);
     }
 
     @Override
